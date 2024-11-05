@@ -23,7 +23,10 @@ int main(int argc, char *argv[])
     char * prog_name = argv[2];
 
     // Open the shared1.kern object
-    struct bpf_object * prog = bpf_object__open(bpf_path);
+    struct bpf_object *prog = bpf_object__open(bpf_path);
+
+    __u32 verifier_type = 0;
+    bpf_object__set_verifier_type(prog, 0);
     
     // Try and load this program
     // This should make the map we need

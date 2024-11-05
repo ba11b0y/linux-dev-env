@@ -10,7 +10,7 @@ BPF-CLANG := clang
 BPF_CLANG_CFLAGS := -target bpf -g -Wall -O2 -c
 INCLUDE := -I../linux/usr/include/ -I../linux/tools/lib/
 USER-CFLAGS := -g -I../linux/usr/include -I../linux/tools/lib/ -L../linux/tools/lib/bpf/
-
+LDFLAGS := -Wl,--version-script=libbpf.map -fvisibility=default
 
 all: $(FILES) $(USER)
 	
@@ -21,7 +21,7 @@ $(FILES) : %.o : %.c
 	$(BPF-CLANG) $(INCLUDE) $(BPF_CLANG_CFLAGS) -o $@ $<
 
 $(USER) : % : %.c
-	gcc $(USER-CFLAGS) $< -lbpf -o $@
+	gcc $(USER-CFLAGS) $< -lbpf $(LDFLAGS) -o $@
 
 .PHONY : clean
 
