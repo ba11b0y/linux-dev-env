@@ -1,0 +1,38 @@
+{
+    "files.exclude": {
+        "**/.*.*.cmd": true,
+        "**/.*.d": true,
+        "**/.*.S": true,
+        "**/.*.tmp": true,
+        "**/*.a": true,
+        "**/*.dtb": true,
+        "**/*.ko": true,
+        "**/*.mod": true,
+        "**/*.mod.c": true,
+        "**/*.o": true,
+        "**/modules.order": true,
+    },
+    "[c]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        // "editor.rulers": [
+        //     80,
+        //     100
+        // ]
+    },
+    "files.associations": {
+        "*.h": "c",
+        "array": "c",
+        "compare": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "string": "c",
+        "string_view": "c",
+        "span": "c",
+        "map": "c",
+        "format": "c"
+    }
+}

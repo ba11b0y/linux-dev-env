@@ -22,14 +22,14 @@ int main(int argc, char *argv[])
     char * bpf_path = argv[1];
     char * prog_name = argv[2];
 
-    // Open the shared1.kern object
+    // returns a bpf_object
     struct bpf_object *prog = bpf_object__open(bpf_path);
 
-    __u32 verifier_type = 0;
-    bpf_object__set_verifier_type(prog, 0);
+    __u32 verifier_type = 1;
+    // set verifier type inside the prog, later passed on as attr
+    bpf_object__set_verifier_type(prog, verifier_type);
     
     // Try and load this program
-    // This should make the map we need
     if (bpf_object__load(prog)) {
         printf("Failed");
         return 0;
