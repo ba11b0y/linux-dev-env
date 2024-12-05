@@ -1,0 +1,48 @@
+libbpf: prog 'xdp_prog': BPF program load failed: Permission denied
+libbpf: prog 'xdp_prog': -- BEGIN PROG LOAD LOG --
+0: R1=ctx() R10=fp0
+0: (b7) r1 = 5                        ; R1_w=5
+1: (63) *(u32 *)(r10 -8) = r1         ; R1_w=5 R10=fp0 fp-8=????5
+2: (18) r1 = 0x400000003              ; R1_w=0x400000003
+4: (7b) *(u64 *)(r10 -16) = r1        ; R1_w=0x400000003 R10=fp0 fp-16_w=0x400000003
+5: (18) r1 = 0x200000001              ; R1_w=0x200000001
+7: (7b) *(u64 *)(r10 -24) = r1        ; R1_w=0x200000001 R10=fp0 fp-24_w=0x200000001
+8: (b7) r1 = 0                        ; R1_w=0
+9: (63) *(u32 *)(r10 -28) = r1        ; R1_w=0 R10=fp0 fp-32=0000????
+10: (63) *(u32 *)(r10 -32) = r1       ; R1_w=0 R10=fp0 fp-32=00000
+11: (63) *(u32 *)(r10 -32) = r1       ; R1_w=0 R10=fp0 fp-32=00000
+12: (05) goto pc+0
+13: (61) r1 = *(u32 *)(r10 -32)       ; R1_w=0 R10=fp0 fp-32=00000
+14: (61) r2 = *(u32 *)(r10 -8)        ; R2_w=5 R10=fp0 fp-8=????5
+15: (3d) if r1 >= r2 goto pc+15       ; R1_w=0 R2_w=5
+16: (05) goto pc+0
+17: (61) r2 = *(u32 *)(r10 -32)       ; R2_w=0 R10=fp0 fp-32=00000
+18: (67) r2 <<= 2                     ; R2_w=0
+19: (bf) r1 = r10                     ; R1_w=fp0 R10=fp0
+20: (07) r1 += -24                    ; R1_w=fp-24
+21: (0f) r1 += r2                     ; R1_w=fp-24 R2_w=0
+22: (61) r2 = *(u32 *)(r1 +0)         ; R1_w=fp-24 R2_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff)) fp-24=0x200000001
+23: (61) r1 = *(u32 *)(r10 -28)       ; R1_w=0 R10=fp0 fp-32=00000
+24: (0f) r1 += r2                     ; R1_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff)) R2_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff))
+25: (63) *(u32 *)(r10 -28) = r1       ; R1_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff)) R10=fp0 fp-32=mmmmmmmm
+26: (05) goto pc+0
+27: (61) r1 = *(u32 *)(r10 -32)       ; R1_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff)) R10=fp0 fp-32=mmmmmmmm
+28: (07) r1 += 1                      ; R1_w=scalar(smin=umin=1,smax=umax=0x100000000,var_off=(0x0; 0x1ffffffff))
+29: (63) *(u32 *)(r10 -32) = r1       ; R1_w=scalar(smin=umin=1,smax=umax=0x100000000,var_off=(0x0; 0x1ffffffff)) R10=fp0 fp-32=mmmmscalar(smin=umin=1,smax=umax=0x100000000,var_off=(0x0; 0x1ffffffff))
+30: (05) goto pc-18
+13: (61) r1 = *(u32 *)(r10 -32)       ; R1_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff)) R10=fp0 fp-32=mmmmscalar(smin=umin=1,smax=umax=0x100000000,var_off=(0x0; 0x1ffffffff))
+14: (61) r2 = *(u32 *)(r10 -8)        ; R2_w=5 R10=fp0 fp-8=????5
+15: (3d) if r1 >= r2 goto pc+15       ; R1_w=scalar(smin=smin32=0,smax=umax=smax32=umax32=4,var_off=(0x0; 0x7)) R2_w=5
+16: (05) goto pc+0
+17: (61) r2 = *(u32 *)(r10 -32)       ; R2_w=scalar(smin=0,smax=umax=0xffffffff,var_off=(0x0; 0xffffffff)) R10=fp0 fp-32=mmmmscalar(smin=umin=1,smax=umax=0x100000000,var_off=(0x0; 0x1ffffffff))
+18: (67) r2 <<= 2                     ; R2_w=scalar(smin=0,smax=umax=0x3fffffffc,smax32=0x7ffffffc,umax32=0xfffffffc,var_off=(0x0; 0x3fffffffc))
+19: (bf) r1 = r10                     ; R1_w=fp0 R10=fp0
+20: (07) r1 += -24                    ; R1_w=fp-24
+21: (0f) r1 += r2                     ; R1_w=fp(off=-24,smin=0,smax=umax=0x3fffffffc,smax32=0x7ffffffc,umax32=0xfffffffc,var_off=(0x0; 0x3fffffffc)) R2_w=scalar(smin=0,smax=umax=0x3fffffffc,smax32=0x7ffffffc,umax32=0xfffffffc,var_off=(0x0; 0x3fffffffc))
+22: (61) r2 = *(u32 *)(r1 +0)
+invalid unbounded variable-offset read from stack R1
+processed 39 insns (limit 1000000) max_states_per_insn 1 total_states 2 peak_states 2 mark_read 2
+-- END PROG LOAD LOG --
+libbpf: prog 'xdp_prog': failed to load: -13
+libbpf: failed to load object 'faulty_getsum.o'
+Error: failed to load object file

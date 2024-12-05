@@ -7,7 +7,7 @@ MAP_FINE_USER_OBJ := $(MAP_FINE_USER_SRC:.c=)
 USER_SRC := $(wildcard *.user.c)
 USER := $(USER_SRC:.c=)
 BPF-CLANG := clang
-BPF_CLANG_CFLAGS := -target bpf -g -Wall -O2 -c
+BPF_CLANG_CFLAGS := -target bpf -g -Wall -O0 -c
 INCLUDE := -I../linux/usr/include/ -I../linux/tools/lib/
 USER-CFLAGS := -g -I../linux/usr/include -I../linux/tools/lib/ -L/linux/tools/lib/bpf -Wl,-rpath=/linux/tools/lib/bpf
 
