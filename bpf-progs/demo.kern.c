@@ -3,10 +3,9 @@
 
 char LICENSE[] SEC("license") = "Dual BSD/GPL";
 
-#define __secret_tag __attribute__((btf_decl_tag("secrecy_level: 1")))
-#define __secret_tag __attribute__((btf_decl_tag("confidential")))
+#define __sensitive_high __attribute__((btf_decl_tag("sensitivity: high")))
 
-int info __secret_tag = 1000;
+int info __sensitive_high = 1000;
 
 
 SEC("tp/syscalls/sys_enter_getcwd")

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "linux-kernel",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/linux/include"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/linux/include/generated/autoconf.h"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
