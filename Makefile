@@ -25,6 +25,9 @@ qemu-run:
 qemu-ssh:
 	ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" -t root@127.0.0.1 -p ${SSH_PORT}
 
+qemu-scp:
+	scp -P 52222 -O -o "StrictHostKeyChecking=no" root@127.0.0.1:/linux-dev-env/bpf-progs/demo.kern.ll .
+
 vmlinux: 
 	docker run --rm -v ${LINUX}:/linux -w /linux rahul-ifc  make -j`nproc` bzImage 
 

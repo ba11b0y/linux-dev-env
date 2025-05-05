@@ -40,8 +40,6 @@ int main(int argc, char *argv[])
 
     printf("PID: %d\n", getpid());
 
-    getchar();
-
     bpf_program__attach(program);
 
     while (1) {
